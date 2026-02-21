@@ -1,0 +1,97 @@
+* {
+    font-family: Monaco;
+}
+
+div>h2{
+    text-align: center;
+}
+
+#detailstitle{
+    font-size: 60px;
+}
+
+#hometitle {
+    font-size: 80px;
+    text-align: center;
+    height: 800px;
+    background-image: url(homepic1.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 1150px 800px;;
+}
+
+.footer{
+    padding-bottom: 400px;
+    background-color: #333;
+    padding: 40px 80px 60px 80px;
+    max-width: 1400px;
+    box-sizing: inherit;
+    text-align: center;
+}
+
+.footer p {
+    color: white;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    left:0;
+}
+  
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.navbar a:hover{
+    background-color: red;
+}
+
+.textlayout {
+    float: left;
+    padding: 10px;
+}
+
+.textlayout.side {
+    width: 22%;
+}
+
+.textlayout.middle {
+    width: 49%
+}
+
+.end::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.textlayout.sidelarge{
+    width: 63%;
+}
+
+.textlayout.sidesmall{
+    padding-top: 75px;
+    width: 30%;
+    background-color: aliceblue;
+    padding-bottom: 173px;
+}
+
+
+.detailpic{
+    width: 100%
+}
+
+.end2::after{
+    content: "";
+    display: table;
+    clear: both;
+}
